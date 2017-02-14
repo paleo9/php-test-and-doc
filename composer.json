@@ -1,0 +1,17 @@
+{
+    "require-dev": {
+        "phpdocumentor/phpdocumentor": "2.*",
+        "phpunit/phpunit": "6.0.*",
+        "phpunit/php-invoker": "*",
+        "phpunit/dbunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paleo9\\": "App",
+            "PHPUnit\\": "vendor/phpunit"
+        }
+    }
+}
+
+
+
